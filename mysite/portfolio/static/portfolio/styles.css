@@ -66,3 +66,28 @@ header {
     transform: rotate(45deg);
 }
 
+main {
+    position: relative;
+    height: calc(100vh - 60px);
+}
+
+.menu {
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    padding: 15px;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+
+.menu ul li i {
+    margin-right: 10px;
+}
+
+.disable {
+    display: none;
+}
+
+
